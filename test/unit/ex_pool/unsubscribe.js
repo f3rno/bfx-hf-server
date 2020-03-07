@@ -18,7 +18,7 @@ describe('ex_pool: unsubscribe', () => {
   const channel = ['trades', 'tBTCUSD']
   const chanKey = chanDataToKey(channel)
 
-  it('captures exception if no client is open for the exchange', () => {
+  it('captures exception if no client is open for the exchange', (done) => {
     const pool = poolInit()
 
     sinon.stub(capture, 'exception')
@@ -32,10 +32,12 @@ describe('ex_pool: unsubscribe', () => {
       assert(capture.exception.called)
       poolReset(pool)
       capture.exception.restore()
+
+      return done()
     })
   })
 
-  it('captures exception if not subscribed to the channel', () => {
+  it('captures exception if not subscribed to the channel', (done) => {
     const pool = poolInit()
     poolAddClient(pool, 'bitfinex')
 
@@ -50,10 +52,12 @@ describe('ex_pool: unsubscribe', () => {
       assert(capture.exception.called)
       poolReset(pool)
       capture.exception.restore()
+
+      return done()
     })
   })
 
-  it('decrements the subscription ref count & unsubscribes if zero', () => {
+  it('decrements the subscription ref count & unsubscribes if zero', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -75,29 +79,31 @@ describe('ex_pool: unsubscribe', () => {
       pool,
       channel,
       exID: 'bitfinex'
-    }).then((subChanID) => {
+    }).then(async (subChanID) => {
       assert.strictEqual(subChanID, 42)
       assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
 
-      return poolUnsubscribe({
+      const unsubChanID = await poolUnsubscribe({
         pool,
         channel,
         exID: 'bitfinex'
-      }).then((unsubChanID) => {
-        assert.strictEqual(subChanID, unsubChanID)
-        assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 0)
-        assert(pool.exchangeClients.bitfinex.unsubscribe.called)
-
-        bfx.prototype.openWS.restore()
-        bfx.prototype.subscribe.restore()
-        bfx.prototype.unsubscribe.restore()
-
-        poolReset(pool)
       })
+
+      assert.strictEqual(subChanID, unsubChanID)
+      assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 0)
+      assert(pool.exchangeClients.bitfinex.unsubscribe.called)
+
+      bfx.prototype.openWS.restore()
+      bfx.prototype.subscribe.restore()
+      bfx.prototype.unsubscribe.restore()
+
+      poolReset(pool)
+
+      return done()
     })
   })
 
-  it('does not unsubscribe if the ref count is still above zero', () => {
+  it('does not unsubscribe if the ref count is still above zero', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -119,32 +125,34 @@ describe('ex_pool: unsubscribe', () => {
       pool,
       channel,
       exID: 'bitfinex'
-    }).then((subChanID) => {
+    }).then(async (subChanID) => {
       assert.strictEqual(subChanID, 42)
       assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
 
       // bump ref count
       pool.subscriptions.bitfinex[chanKey] = 2
 
-      return poolUnsubscribe({
+      const unsubChanID = await poolUnsubscribe({
         pool,
         channel,
         exID: 'bitfinex'
-      }).then((unsubChanID) => {
-        assert.strictEqual(subChanID, unsubChanID)
-        assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
-        assert(pool.exchangeClients.bitfinex.unsubscribe.notCalled)
-
-        bfx.prototype.openWS.restore()
-        bfx.prototype.subscribe.restore()
-        bfx.prototype.unsubscribe.restore()
-
-        poolReset(pool)
       })
+
+      assert.strictEqual(subChanID, unsubChanID)
+      assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
+      assert(pool.exchangeClients.bitfinex.unsubscribe.notCalled)
+
+      bfx.prototype.openWS.restore()
+      bfx.prototype.subscribe.restore()
+      bfx.prototype.unsubscribe.restore()
+
+      poolReset(pool)
+
+      return done()
     })
   })
 
-  it('clears the ref count if forced', () => {
+  it('clears the ref count if forced', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -166,29 +174,31 @@ describe('ex_pool: unsubscribe', () => {
       pool,
       channel,
       exID: 'bitfinex'
-    }).then((subChanID) => {
+    }).then(async (subChanID) => {
       assert.strictEqual(subChanID, 42)
       assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
 
       // bump ref count
       pool.subscriptions.bitfinex[chanKey] = 2
 
-      return poolUnsubscribe({
+      const unsubChanID = await poolUnsubscribe({
         pool,
         channel,
         force: true,
         exID: 'bitfinex'
-      }).then((unsubChanID) => {
-        assert.strictEqual(subChanID, unsubChanID)
-        assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 0)
-        assert(pool.exchangeClients.bitfinex.unsubscribe.called)
-
-        bfx.prototype.openWS.restore()
-        bfx.prototype.subscribe.restore()
-        bfx.prototype.unsubscribe.restore()
-
-        poolReset(pool)
       })
+
+      assert.strictEqual(subChanID, unsubChanID)
+      assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 0)
+      assert(pool.exchangeClients.bitfinex.unsubscribe.called)
+
+      bfx.prototype.openWS.restore()
+      bfx.prototype.subscribe.restore()
+      bfx.prototype.unsubscribe.restore()
+
+      poolReset(pool)
+
+      return done()
     })
   })
 })

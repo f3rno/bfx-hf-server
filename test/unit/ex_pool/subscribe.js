@@ -14,7 +14,7 @@ describe('ex_pool: subscribe', () => {
   const channel = ['trades', 'tBTCUSD']
   const chanKey = chanDataToKey(channel)
 
-  it('adds the exchange client if it does not already exist', () => {
+  it('adds the exchange client if it does not already exist', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -33,10 +33,12 @@ describe('ex_pool: subscribe', () => {
       bfx.prototype.subscribe.restore()
 
       poolReset(pool)
+
+      return done()
     })
   })
 
-  it('calls subscribe on the exchange client only if the ref count is 0', () => {
+  it('calls subscribe on the exchange client only if the ref count is 0', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -55,10 +57,12 @@ describe('ex_pool: subscribe', () => {
       bfx.prototype.subscribe.restore()
 
       poolReset(pool)
+
+      return done()
     })
   })
 
-  it('increments the subscription ref count', () => {
+  it('increments the subscription ref count', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -77,10 +81,12 @@ describe('ex_pool: subscribe', () => {
       bfx.prototype.subscribe.restore()
 
       poolReset(pool)
+
+      return done()
     })
   })
 
-  it('returns the exchange client channel ID', () => {
+  it('returns the exchange client channel ID', (done) => {
     const pool = poolInit()
 
     sinon.stub(bfx.prototype, 'openWS')
@@ -101,6 +107,8 @@ describe('ex_pool: subscribe', () => {
       bfx.prototype.getChannelID.restore()
 
       poolReset(pool)
+
+      return done()
     })
   })
 })

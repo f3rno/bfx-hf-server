@@ -101,7 +101,7 @@ module.exports = ({
       dsBitfinex.open()
     }
 
-    api.open()
+    return api.open()
   }).catch((e) => {
     capture.exception(e)
   })

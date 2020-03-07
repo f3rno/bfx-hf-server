@@ -39,12 +39,13 @@ module.exports = (done, exID, channels, asserters) => {
   })
 
   channels.forEach((channel, i) => {
-    poolSubscribe({
+    return poolSubscribe({
       pool,
       exID,
       channel
     }).then((chanID) => {
       channelIDs[i] = chanID
+      return null
     })
   })
 }
