@@ -1,3 +1,4 @@
 # 3.0.0
 - meta: CHANGELOG created
+- meta: update dependencies
 - fix: add missing promise-throttle to manifest
