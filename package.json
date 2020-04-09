@@ -1,7 +1,7 @@
 {
   "name": "bfx-hf-server",
-  "version": "2.0.9",
-  "description": "HF server bundle",
+  "version": "3.0.0",
+  "description": "Honey Framework Data Server",
   "author": "Bitfinex",
   "license": "Apache-2.0",
   "repository": {
