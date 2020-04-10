@@ -11,17 +11,35 @@
   "bugs": {
     "url": "https://github.com/bitfinexcom/bfx-hf-server/issues"
   },
+  "main": "lib/index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "keywords": [
     "honey framework",
     "bitfinex",
     "bitcoin",
     "BTC"
   ],
+  "scripts": {
+    "start": "NODE_PATH=lib node examples/server.js",
+    "lint": "eslint --ext .js,.ts src/ examples/ test/",
+    "test": "npm run lint && npm run types && npm run unit",
+    "unit": "NODE_ENV=test nyc mocha --recursive",
+    "build": "./node_modules/.bin/babel src/ -d lib/",
+    "docs": "rm -rf docs && node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
+    "serve-docs": "./node_modules/.bin/http-server docs",
+    "types": "./node_modules/.bin/tsc -p .",
+    "prepare": "npm run build"
+  },
   "dependencies": {
     "aes-js": "^3.1.2",
     "bfx-api-node-core": "^1.1.8",
     "bfx-api-node-models": "^1.2.4",
     "bfx-api-node-rest": "^3.0.9",
+    "bfx-api-node-util": "^1.0.8",
     "bfx-hf-algo": "^2.1.0",
     "bfx-hf-algo-server": "^1.4.2",
     "bfx-hf-data-server": "^1.3.5",
@@ -37,14 +55,18 @@
     "bignumber.js": "^9.0.0",
     "binance-api-node": "^0.9.18",
     "bitfinex-api-node": "^4.0.13",
+    "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "knex": "^0.20.13",
     "lodash": "^4.17.15",
     "node-kraken-api": "^0.4.1",
+    "p-iteration": "^1.1.8",
     "p-queue": "^6.3.0",
+    "pg": "^8.0.0",
     "php-serialize": "^3.0.1",
     "promise-throttle": "^1.0.1",
     "scrypt-js": "^3.0.0",
@@ -53,16 +75,33 @@
     "uuid": "^7.0.3",
     "ws": "^7.2.3"
   },
-  "scripts": {
-    "start": "NODE_PATH=lib node examples/server.js",
-    "lint": "standard",
-    "test": "npm run lint && npm run unit && npm run integration",
-    "unit": "NODE_PATH=lib NODE_ENV=test mocha test/unit -b -c --recursive",
-    "integration": "NODE_PATH=lib NODE_ENV=test mocha test/integration -b -c --recursive"
-  },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^22.1.0",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "http-server": "^0.12.1",
     "mocha": "^7.1.1",
     "ndb": "^1.1.5",
-    "sinon": "^9.0.2"
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2",
+    "typescript": "^3.8.3"
   }
 }

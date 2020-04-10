@@ -2,7 +2,7 @@
 
 process.env.DEBUG = 'bfx:hf:*'
 
-const startHFServer = require('..')
+const startHFServer = require('../lib')
 
 startHFServer({
   uiDBPath: `${__dirname}/../db/ui.json`,

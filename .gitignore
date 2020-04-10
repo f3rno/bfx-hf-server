@@ -1,5 +1,4 @@
 .idea
-dist/*
 node_modules
 npm-debug.log
 .vscode
@@ -7,10 +6,12 @@ npm-debug.log
 *.swp
 .DS_Store
 db/*.sql
+db/*.json
 .env
 scripts/*
-!db/.keep
-db/*
 package-lock.json
 tags
 .undodir
+lib
+.nyc_output
+coverage
