@@ -2,4 +2,6 @@
 - meta: CHANGELOG created
 - meta: update dependencies
 - meta: standardize eslint/babel/tsc config
+- refactor: rm vestigial workers logic
+- refactor: rm vestigial tv_data_server
 - fix: add missing promise-throttle to manifest
