@@ -1,0 +1,7 @@
+{
+  "extends": ".mocharc.json",
+
+  "watch": true,
+  "reporter": "min",
+  "watch-files": "./test"
+}

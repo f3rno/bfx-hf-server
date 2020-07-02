@@ -79,7 +79,7 @@ describe('ex_pool: unsubscribe', () => {
       assert.strictEqual(subChanID, 42)
       assert.strictEqual(poolGetSubRefCount(pool, 'bitfinex', chanKey), 1)
 
-      return poolUnsubscribe({
+      return poolUnsubscribe({ // eslint-disable-line
         pool,
         channel,
         exID: 'bitfinex'
@@ -126,7 +126,7 @@ describe('ex_pool: unsubscribe', () => {
       // bump ref count
       pool.subscriptions.bitfinex[chanKey] = 2
 
-      return poolUnsubscribe({
+      return poolUnsubscribe({ // eslint-disable-line
         pool,
         channel,
         exID: 'bitfinex'
@@ -173,7 +173,7 @@ describe('ex_pool: unsubscribe', () => {
       // bump ref count
       pool.subscriptions.bitfinex[chanKey] = 2
 
-      return poolUnsubscribe({
+      return poolUnsubscribe({ // eslint-disable-line
         pool,
         channel,
         force: true,

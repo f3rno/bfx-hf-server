@@ -1,0 +1,3324 @@
+{
+  "markets": [
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ABS",
+      "wsID": "tABSUSD",
+      "restID": "tABSUSD",
+      "uiID": "ABS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AGI",
+      "wsID": "tAGIUSD",
+      "restID": "tAGIUSD",
+      "uiID": "AGI/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AID",
+      "wsID": "tAIDUSD",
+      "restID": "tAIDUSD",
+      "uiID": "AID/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "AIO",
+      "wsID": "tAIOBTC",
+      "restID": "tAIOBTC",
+      "uiID": "AIO/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AIO",
+      "wsID": "tAIOUSD",
+      "restID": "tAIOUSD",
+      "uiID": "AIO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ALG",
+      "wsID": "tALGBTC",
+      "restID": "tALGBTC",
+      "uiID": "ALG/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ALG",
+      "wsID": "tALGUSD",
+      "restID": "tALGUSD",
+      "uiID": "ALG/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "ALG",
+      "wsID": "tALGUST",
+      "restID": "tALGUST",
+      "uiID": "ALG/UST",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "AMP",
+      "wsID": "tAMPBTC",
+      "restID": "tAMPBTC",
+      "uiID": "AMP/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AMP",
+      "wsID": "tAMPUSD",
+      "restID": "tAMPUSD",
+      "uiID": "AMP/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "AMP",
+      "wsID": "tAMPUST",
+      "restID": "tAMPUST",
+      "uiID": "AMP/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ANT",
+      "wsID": "tANTBTC",
+      "restID": "tANTBTC",
+      "uiID": "ANT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "ANT",
+      "wsID": "tANTETH",
+      "restID": "tANTETH",
+      "uiID": "ANT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ANT",
+      "wsID": "tANTUSD",
+      "restID": "tANTUSD",
+      "uiID": "ANT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AST",
+      "wsID": "tASTUSD",
+      "restID": "tASTUSD",
+      "uiID": "AST/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ATM",
+      "wsID": "tATMUSD",
+      "restID": "tATMUSD",
+      "uiID": "ATM/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ATO",
+      "wsID": "tATOBTC",
+      "restID": "tATOBTC",
+      "uiID": "ATO/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "ATO",
+      "wsID": "tATOETH",
+      "restID": "tATOETH",
+      "uiID": "ATO/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ATO",
+      "wsID": "tATOUSD",
+      "restID": "tATOUSD",
+      "uiID": "ATO/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AUC",
+      "wsID": "tAUCUSD",
+      "restID": "tAUCUSD",
+      "uiID": "AUC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "AVT",
+      "wsID": "tAVTUSD",
+      "restID": "tAVTUSD",
+      "uiID": "AVT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BAB",
+      "wsID": "tBABBTC",
+      "restID": "tBABBTC",
+      "uiID": "BAB/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BAB",
+      "wsID": "tBABUSD",
+      "restID": "tBABUSD",
+      "uiID": "BAB/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "BAB",
+      "wsID": "tBABUST",
+      "restID": "tBABUST",
+      "uiID": "BAB/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BAT",
+      "wsID": "tBATBTC",
+      "restID": "tBATBTC",
+      "uiID": "BAT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "BAT",
+      "wsID": "tBATETH",
+      "restID": "tBATETH",
+      "uiID": "BAT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BAT",
+      "wsID": "tBATUSD",
+      "restID": "tBATUSD",
+      "uiID": "BAT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BFT",
+      "wsID": "tBFTBTC",
+      "restID": "tBFTBTC",
+      "uiID": "BFT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BFT",
+      "wsID": "tBFTUSD",
+      "restID": "tBFTUSD",
+      "uiID": "BFT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BNT",
+      "wsID": "tBNTUSD",
+      "restID": "tBNTUSD",
+      "uiID": "BNT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BOX",
+      "wsID": "tBOXUSD",
+      "restID": "tBOXUSD",
+      "uiID": "BOX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BSV",
+      "wsID": "tBSVBTC",
+      "restID": "tBSVBTC",
+      "uiID": "BSV/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BSV",
+      "wsID": "tBSVUSD",
+      "restID": "tBSVUSD",
+      "uiID": "BSV/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "CNHT",
+      "base": "BTC",
+      "wsID": "tBTC:CNHT",
+      "restID": "tBTC:CNHT",
+      "uiID": "BTC/CNHT",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "BTC",
+      "wsID": "tBTCEUR",
+      "restID": "tBTCEUR",
+      "uiID": "BTC/EUR",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "BTC",
+      "wsID": "tBTCGBP",
+      "restID": "tBTCGBP",
+      "uiID": "BTC/GBP",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "BTC",
+      "wsID": "tBTCJPY",
+      "restID": "tBTCJPY",
+      "uiID": "BTC/JPY",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BTC",
+      "wsID": "tBTCUSD",
+      "restID": "tBTCUSD",
+      "uiID": "BTC/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "BTC",
+      "wsID": "tBTCUST",
+      "restID": "tBTCUST",
+      "uiID": "BTC/UST",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "XCH",
+      "base": "BTC",
+      "wsID": "tBTCXCH",
+      "restID": "tBTCXCH",
+      "uiID": "BTC/XCH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BTG",
+      "wsID": "tBTGBTC",
+      "restID": "tBTGBTC",
+      "uiID": "BTG/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BTG",
+      "wsID": "tBTGUSD",
+      "restID": "tBTGUSD",
+      "uiID": "BTG/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "BTT",
+      "wsID": "tBTTBTC",
+      "restID": "tBTTBTC",
+      "uiID": "BTT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "BTT",
+      "wsID": "tBTTUSD",
+      "restID": "tBTTUSD",
+      "uiID": "BTT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CBT",
+      "wsID": "tCBTUSD",
+      "restID": "tCBTUSD",
+      "uiID": "CBT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CHZ",
+      "wsID": "tCHZUSD",
+      "restID": "tCHZUSD",
+      "uiID": "CHZ/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "CHZ",
+      "wsID": "tCHZUST",
+      "restID": "tCHZUST",
+      "uiID": "CHZ/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "CLO",
+      "wsID": "tCLOBTC",
+      "restID": "tCLOBTC",
+      "uiID": "CLO/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CLO",
+      "wsID": "tCLOUSD",
+      "restID": "tCLOUSD",
+      "uiID": "CLO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "CND",
+      "wsID": "tCNDETH",
+      "restID": "tCNDETH",
+      "uiID": "CND/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CND",
+      "wsID": "tCNDUSD",
+      "restID": "tCNDUSD",
+      "uiID": "CND/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "CNHT",
+      "base": "CNH",
+      "wsID": "tCNH:CNHT",
+      "restID": "tCNH:CNHT",
+      "uiID": "CNH/CNHT",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CNN",
+      "wsID": "tCNNUSD",
+      "restID": "tCNNUSD",
+      "uiID": "CNN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CSX",
+      "wsID": "tCSXUSD",
+      "restID": "tCSXUSD",
+      "uiID": "CSX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "CTX",
+      "wsID": "tCTXUSD",
+      "restID": "tCTXUSD",
+      "uiID": "CTX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "DAI",
+      "wsID": "tDAIBTC",
+      "restID": "tDAIBTC",
+      "uiID": "DAI/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "DAI",
+      "wsID": "tDAIETH",
+      "restID": "tDAIETH",
+      "uiID": "DAI/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DAI",
+      "wsID": "tDAIUSD",
+      "restID": "tDAIUSD",
+      "uiID": "DAI/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "DAT",
+      "wsID": "tDATBTC",
+      "restID": "tDATBTC",
+      "uiID": "DAT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "DAT",
+      "wsID": "tDATETH",
+      "restID": "tDATETH",
+      "uiID": "DAT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DAT",
+      "wsID": "tDATUSD",
+      "restID": "tDATUSD",
+      "uiID": "DAT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "DGB",
+      "wsID": "tDGBBTC",
+      "restID": "tDGBBTC",
+      "uiID": "DGB/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DGB",
+      "wsID": "tDGBUSD",
+      "restID": "tDGBUSD",
+      "uiID": "DGB/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "DGX",
+      "wsID": "tDGXETH",
+      "restID": "tDGXETH",
+      "uiID": "DGX/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DGX",
+      "wsID": "tDGXUSD",
+      "restID": "tDGXUSD",
+      "uiID": "DGX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DRN",
+      "wsID": "tDRNUSD",
+      "restID": "tDRNUSD",
+      "uiID": "DRN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "DSH",
+      "wsID": "tDSHBTC",
+      "restID": "tDSHBTC",
+      "uiID": "DSH/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DSH",
+      "wsID": "tDSHUSD",
+      "restID": "tDSHUSD",
+      "uiID": "DSH/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DTA",
+      "wsID": "tDTAUSD",
+      "restID": "tDTAUSD",
+      "uiID": "DTA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DTH",
+      "wsID": "tDTHUSD",
+      "restID": "tDTHUSD",
+      "uiID": "DTH/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DTX",
+      "wsID": "tDTXUSD",
+      "restID": "tDTXUSD",
+      "uiID": "DTX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "DUSK",
+      "wsID": "tDUSK:BTC",
+      "restID": "tDUSK:BTC",
+      "uiID": "DUSK/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "DUSK",
+      "wsID": "tDUSK:USD",
+      "restID": "tDUSK:USD",
+      "uiID": "DUSK/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "EDO",
+      "wsID": "tEDOBTC",
+      "restID": "tEDOBTC",
+      "uiID": "EDO/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "EDO",
+      "wsID": "tEDOETH",
+      "restID": "tEDOETH",
+      "uiID": "EDO/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "EDO",
+      "wsID": "tEDOUSD",
+      "restID": "tEDOUSD",
+      "uiID": "EDO/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ELF",
+      "wsID": "tELFUSD",
+      "restID": "tELFUSD",
+      "uiID": "ELF/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ENJ",
+      "wsID": "tENJUSD",
+      "restID": "tENJUSD",
+      "uiID": "ENJ/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "EOS",
+      "wsID": "tEOSBTC",
+      "restID": "tEOSBTC",
+      "uiID": "EOS/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "EOS",
+      "wsID": "tEOSETH",
+      "restID": "tEOSETH",
+      "uiID": "EOS/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "EOS",
+      "wsID": "tEOSEUR",
+      "restID": "tEOSEUR",
+      "uiID": "EOS/EUR",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "EOS",
+      "wsID": "tEOSGBP",
+      "restID": "tEOSGBP",
+      "uiID": "EOS/GBP",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "EOS",
+      "wsID": "tEOSJPY",
+      "restID": "tEOSJPY",
+      "uiID": "EOS/JPY",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "EOS",
+      "wsID": "tEOSUSD",
+      "restID": "tEOSUSD",
+      "uiID": "EOS/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "EOS",
+      "wsID": "tEOSUST",
+      "restID": "tEOSUST",
+      "uiID": "EOS/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ESS",
+      "wsID": "tESSUSD",
+      "restID": "tESSUSD",
+      "uiID": "ESS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ETC",
+      "wsID": "tETCBTC",
+      "restID": "tETCBTC",
+      "uiID": "ETC/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ETC",
+      "wsID": "tETCUSD",
+      "restID": "tETCUSD",
+      "uiID": "ETC/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ETH",
+      "wsID": "tETHBTC",
+      "restID": "tETHBTC",
+      "uiID": "ETH/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "ETH",
+      "wsID": "tETHEUR",
+      "restID": "tETHEUR",
+      "uiID": "ETH/EUR",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "ETH",
+      "wsID": "tETHGBP",
+      "restID": "tETHGBP",
+      "uiID": "ETH/GBP",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "ETH",
+      "wsID": "tETHJPY",
+      "restID": "tETHJPY",
+      "uiID": "ETH/JPY",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ETH",
+      "wsID": "tETHUSD",
+      "restID": "tETHUSD",
+      "uiID": "ETH/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "ETH",
+      "wsID": "tETHUST",
+      "restID": "tETHUST",
+      "uiID": "ETH/UST",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ETP",
+      "wsID": "tETPBTC",
+      "restID": "tETPBTC",
+      "uiID": "ETP/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "ETP",
+      "wsID": "tETPETH",
+      "restID": "tETPETH",
+      "uiID": "ETP/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ETP",
+      "wsID": "tETPUSD",
+      "restID": "tETPUSD",
+      "uiID": "ETP/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "EUS",
+      "wsID": "tEUSUSD",
+      "restID": "tEUSUSD",
+      "uiID": "EUS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "EUT",
+      "wsID": "tEUTEUR",
+      "restID": "tEUTEUR",
+      "uiID": "EUT/EUR",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "EUT",
+      "wsID": "tEUTUSD",
+      "restID": "tEUTUSD",
+      "uiID": "EUT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "EVT",
+      "wsID": "tEVTUSD",
+      "restID": "tEVTUSD",
+      "uiID": "EVT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "FOA",
+      "wsID": "tFOAUSD",
+      "restID": "tFOAUSD",
+      "uiID": "FOA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "FSN",
+      "wsID": "tFSNUSD",
+      "restID": "tFSNUSD",
+      "uiID": "FSN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "FTT",
+      "wsID": "tFTTUSD",
+      "restID": "tFTTUSD",
+      "uiID": "FTT/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "FTT",
+      "wsID": "tFTTUST",
+      "restID": "tFTTUST",
+      "uiID": "FTT/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "FUN",
+      "wsID": "tFUNETH",
+      "restID": "tFUNETH",
+      "uiID": "FUN/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "FUN",
+      "wsID": "tFUNUSD",
+      "restID": "tFUNUSD",
+      "uiID": "FUN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GEN",
+      "wsID": "tGENUSD",
+      "restID": "tGENUSD",
+      "uiID": "GEN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GNO",
+      "wsID": "tGNOUSD",
+      "restID": "tGNOUSD",
+      "uiID": "GNO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "GNT",
+      "wsID": "tGNTBTC",
+      "restID": "tGNTBTC",
+      "uiID": "GNT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "GNT",
+      "wsID": "tGNTETH",
+      "restID": "tGNTETH",
+      "uiID": "GNT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GNT",
+      "wsID": "tGNTUSD",
+      "restID": "tGNTUSD",
+      "uiID": "GNT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "GOT",
+      "wsID": "tGOTETH",
+      "restID": "tGOTETH",
+      "uiID": "GOT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "GOT",
+      "wsID": "tGOTEUR",
+      "restID": "tGOTEUR",
+      "uiID": "GOT/EUR",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GOT",
+      "wsID": "tGOTUSD",
+      "restID": "tGOTUSD",
+      "uiID": "GOT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GSD",
+      "wsID": "tGSDUSD",
+      "restID": "tGSDUSD",
+      "uiID": "GSD/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "GTX",
+      "wsID": "tGTXUSD",
+      "restID": "tGTXUSD",
+      "uiID": "GTX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "GTX",
+      "wsID": "tGTXUST",
+      "restID": "tGTXUST",
+      "uiID": "GTX/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "HOT",
+      "wsID": "tHOTUSD",
+      "restID": "tHOTUSD",
+      "uiID": "HOT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "IMP",
+      "wsID": "tIMPUSD",
+      "restID": "tIMPUSD",
+      "uiID": "IMP/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "INT",
+      "wsID": "tINTUSD",
+      "restID": "tINTUSD",
+      "uiID": "INT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "IOS",
+      "wsID": "tIOSBTC",
+      "restID": "tIOSBTC",
+      "uiID": "IOS/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "IOS",
+      "wsID": "tIOSETH",
+      "restID": "tIOSETH",
+      "uiID": "IOS/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "IOS",
+      "wsID": "tIOSUSD",
+      "restID": "tIOSUSD",
+      "uiID": "IOS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "IOT",
+      "wsID": "tIOTBTC",
+      "restID": "tIOTBTC",
+      "uiID": "IOT/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "IOT",
+      "wsID": "tIOTETH",
+      "restID": "tIOTETH",
+      "uiID": "IOT/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "IOT",
+      "wsID": "tIOTEUR",
+      "restID": "tIOTEUR",
+      "uiID": "IOT/EUR",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "IOT",
+      "wsID": "tIOTGBP",
+      "restID": "tIOTGBP",
+      "uiID": "IOT/GBP",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "IOT",
+      "wsID": "tIOTJPY",
+      "restID": "tIOTJPY",
+      "uiID": "IOT/JPY",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "IOT",
+      "wsID": "tIOTUSD",
+      "restID": "tIOTUSD",
+      "uiID": "IOT/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EOS",
+      "base": "IQX",
+      "wsID": "tIQXEOS",
+      "restID": "tIQXEOS",
+      "uiID": "IQX/EOS",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "IQX",
+      "wsID": "tIQXUSD",
+      "restID": "tIQXUSD",
+      "uiID": "IQX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "KAN",
+      "wsID": "tKANUSD",
+      "restID": "tKANUSD",
+      "uiID": "KAN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "KAN",
+      "wsID": "tKANUST",
+      "restID": "tKANUST",
+      "uiID": "KAN/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "KNC",
+      "wsID": "tKNCBTC",
+      "restID": "tKNCBTC",
+      "uiID": "KNC/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "KNC",
+      "wsID": "tKNCUSD",
+      "restID": "tKNCUSD",
+      "uiID": "KNC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "LEO",
+      "wsID": "tLEOBTC",
+      "restID": "tLEOBTC",
+      "uiID": "LEO/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EOS",
+      "base": "LEO",
+      "wsID": "tLEOEOS",
+      "restID": "tLEOEOS",
+      "uiID": "LEO/EOS",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "LEO",
+      "wsID": "tLEOETH",
+      "restID": "tLEOETH",
+      "uiID": "LEO/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "LEO",
+      "wsID": "tLEOUSD",
+      "restID": "tLEOUSD",
+      "uiID": "LEO/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "LEO",
+      "wsID": "tLEOUST",
+      "restID": "tLEOUST",
+      "uiID": "LEO/UST",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "LOO",
+      "wsID": "tLOOUSD",
+      "restID": "tLOOUSD",
+      "uiID": "LOO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "LRC",
+      "wsID": "tLRCBTC",
+      "restID": "tLRCBTC",
+      "uiID": "LRC/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "LRC",
+      "wsID": "tLRCUSD",
+      "restID": "tLRCUSD",
+      "uiID": "LRC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "LTC",
+      "wsID": "tLTCBTC",
+      "restID": "tLTCBTC",
+      "uiID": "LTC/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "LTC",
+      "wsID": "tLTCUSD",
+      "restID": "tLTCUSD",
+      "uiID": "LTC/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "LTC",
+      "wsID": "tLTCUST",
+      "restID": "tLTCUST",
+      "uiID": "LTC/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "LYM",
+      "wsID": "tLYMUSD",
+      "restID": "tLYMUSD",
+      "uiID": "LYM/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MAN",
+      "wsID": "tMANUSD",
+      "restID": "tMANUSD",
+      "uiID": "MAN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MGO",
+      "wsID": "tMGOUSD",
+      "restID": "tMGOUSD",
+      "uiID": "MGO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MIT",
+      "wsID": "tMITUSD",
+      "restID": "tMITUSD",
+      "uiID": "MIT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "MKR",
+      "wsID": "tMKRBTC",
+      "restID": "tMKRBTC",
+      "uiID": "MKR/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "DAI",
+      "base": "MKR",
+      "wsID": "tMKRDAI",
+      "restID": "tMKRDAI",
+      "uiID": "MKR/DAI",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "MKR",
+      "wsID": "tMKRETH",
+      "restID": "tMKRETH",
+      "uiID": "MKR/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MKR",
+      "wsID": "tMKRUSD",
+      "restID": "tMKRUSD",
+      "uiID": "MKR/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MLN",
+      "wsID": "tMLNUSD",
+      "restID": "tMLNUSD",
+      "uiID": "MLN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "MNA",
+      "wsID": "tMNABTC",
+      "restID": "tMNABTC",
+      "uiID": "MNA/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MNA",
+      "wsID": "tMNAUSD",
+      "restID": "tMNAUSD",
+      "uiID": "MNA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "MTN",
+      "wsID": "tMTNUSD",
+      "restID": "tMTNUSD",
+      "uiID": "MTN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "NCA",
+      "wsID": "tNCAUSD",
+      "restID": "tNCAUSD",
+      "uiID": "NCA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "NEC",
+      "wsID": "tNECBTC",
+      "restID": "tNECBTC",
+      "uiID": "NEC/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "NEC",
+      "wsID": "tNECETH",
+      "restID": "tNECETH",
+      "uiID": "NEC/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "NEC",
+      "wsID": "tNECUSD",
+      "restID": "tNECUSD",
+      "uiID": "NEC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "NEO",
+      "wsID": "tNEOBTC",
+      "restID": "tNEOBTC",
+      "uiID": "NEO/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "NEO",
+      "wsID": "tNEOETH",
+      "restID": "tNEOETH",
+      "uiID": "NEO/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "NEO",
+      "wsID": "tNEOEUR",
+      "restID": "tNEOEUR",
+      "uiID": "NEO/EUR",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "NEO",
+      "wsID": "tNEOGBP",
+      "restID": "tNEOGBP",
+      "uiID": "NEO/GBP",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "NEO",
+      "wsID": "tNEOJPY",
+      "restID": "tNEOJPY",
+      "uiID": "NEO/JPY",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "NEO",
+      "wsID": "tNEOUSD",
+      "restID": "tNEOUSD",
+      "uiID": "NEO/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ODE",
+      "wsID": "tODEBTC",
+      "restID": "tODEBTC",
+      "uiID": "ODE/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "ODE",
+      "wsID": "tODEETH",
+      "restID": "tODEETH",
+      "uiID": "ODE/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ODE",
+      "wsID": "tODEUSD",
+      "restID": "tODEUSD",
+      "uiID": "ODE/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "OKB",
+      "wsID": "tOKBBTC",
+      "restID": "tOKBBTC",
+      "uiID": "OKB/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "OKB",
+      "wsID": "tOKBUSD",
+      "restID": "tOKBUSD",
+      "uiID": "OKB/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "OKB",
+      "wsID": "tOKBUST",
+      "restID": "tOKBUST",
+      "uiID": "OKB/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "OMG",
+      "wsID": "tOMGBTC",
+      "restID": "tOMGBTC",
+      "uiID": "OMG/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "OMG",
+      "wsID": "tOMGETH",
+      "restID": "tOMGETH",
+      "uiID": "OMG/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "OMG",
+      "wsID": "tOMGUSD",
+      "restID": "tOMGUSD",
+      "uiID": "OMG/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "OMN",
+      "wsID": "tOMNBTC",
+      "restID": "tOMNBTC",
+      "uiID": "OMN/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "OMN",
+      "wsID": "tOMNUSD",
+      "restID": "tOMNUSD",
+      "uiID": "OMN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ONL",
+      "wsID": "tONLUSD",
+      "restID": "tONLUSD",
+      "uiID": "ONL/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ORS",
+      "wsID": "tORSUSD",
+      "restID": "tORSUSD",
+      "uiID": "ORS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "PAI",
+      "wsID": "tPAIUSD",
+      "restID": "tPAIUSD",
+      "uiID": "PAI/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "PAS",
+      "wsID": "tPASUSD",
+      "restID": "tPASUSD",
+      "uiID": "PAS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "PAX",
+      "wsID": "tPAXUSD",
+      "restID": "tPAXUSD",
+      "uiID": "PAX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "PAX",
+      "wsID": "tPAXUST",
+      "restID": "tPAXUST",
+      "uiID": "PAX/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "PNK",
+      "wsID": "tPNKETH",
+      "restID": "tPNKETH",
+      "uiID": "PNK/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "PNK",
+      "wsID": "tPNKUSD",
+      "restID": "tPNKUSD",
+      "uiID": "PNK/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "POA",
+      "wsID": "tPOAUSD",
+      "restID": "tPOAUSD",
+      "uiID": "POA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "POY",
+      "wsID": "tPOYUSD",
+      "restID": "tPOYUSD",
+      "uiID": "POY/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "QSH",
+      "wsID": "tQSHUSD",
+      "restID": "tQSHUSD",
+      "uiID": "QSH/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "QTM",
+      "wsID": "tQTMBTC",
+      "restID": "tQTMBTC",
+      "uiID": "QTM/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "QTM",
+      "wsID": "tQTMUSD",
+      "restID": "tQTMUSD",
+      "uiID": "QTM/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "RBT",
+      "wsID": "tRBTBTC",
+      "restID": "tRBTBTC",
+      "uiID": "RBT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RBT",
+      "wsID": "tRBTUSD",
+      "restID": "tRBTUSD",
+      "uiID": "RBT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RCN",
+      "wsID": "tRCNUSD",
+      "restID": "tRCNUSD",
+      "uiID": "RCN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RDN",
+      "wsID": "tRDNUSD",
+      "restID": "tRDNUSD",
+      "uiID": "RDN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "REP",
+      "wsID": "tREPBTC",
+      "restID": "tREPBTC",
+      "uiID": "REP/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "REP",
+      "wsID": "tREPETH",
+      "restID": "tREPETH",
+      "uiID": "REP/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "REP",
+      "wsID": "tREPUSD",
+      "restID": "tREPUSD",
+      "uiID": "REP/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "REQ",
+      "wsID": "tREQUSD",
+      "restID": "tREQUSD",
+      "uiID": "REQ/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "RIF",
+      "wsID": "tRIFBTC",
+      "restID": "tRIFBTC",
+      "uiID": "RIF/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RIF",
+      "wsID": "tRIFUSD",
+      "restID": "tRIFUSD",
+      "uiID": "RIF/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RINGX",
+      "wsID": "tRINGX:USD",
+      "restID": "tRINGX:USD",
+      "uiID": "RINGX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "RLC",
+      "wsID": "tRLCBTC",
+      "restID": "tRLCBTC",
+      "uiID": "RLC/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RLC",
+      "wsID": "tRLCUSD",
+      "restID": "tRLCUSD",
+      "uiID": "RLC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RRB",
+      "wsID": "tRRBUSD",
+      "restID": "tRRBUSD",
+      "uiID": "RRB/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "RRB",
+      "wsID": "tRRBUST",
+      "restID": "tRRBUST",
+      "uiID": "RRB/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RRT",
+      "wsID": "tRRTUSD",
+      "restID": "tRRTUSD",
+      "uiID": "RRT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "RTE",
+      "wsID": "tRTEUSD",
+      "restID": "tRTEUSD",
+      "uiID": "RTE/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "SAN",
+      "wsID": "tSANBTC",
+      "restID": "tSANBTC",
+      "uiID": "SAN/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "SAN",
+      "wsID": "tSANETH",
+      "restID": "tSANETH",
+      "uiID": "SAN/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SAN",
+      "wsID": "tSANUSD",
+      "restID": "tSANUSD",
+      "uiID": "SAN/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SCR",
+      "wsID": "tSCRUSD",
+      "restID": "tSCRUSD",
+      "uiID": "SCR/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SEE",
+      "wsID": "tSEEUSD",
+      "restID": "tSEEUSD",
+      "uiID": "SEE/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SNG",
+      "wsID": "tSNGUSD",
+      "restID": "tSNGUSD",
+      "uiID": "SNG/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "SNT",
+      "wsID": "tSNTBTC",
+      "restID": "tSNTBTC",
+      "uiID": "SNT/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "SNT",
+      "wsID": "tSNTETH",
+      "restID": "tSNTETH",
+      "uiID": "SNT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SNT",
+      "wsID": "tSNTUSD",
+      "restID": "tSNTUSD",
+      "uiID": "SNT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SPK",
+      "wsID": "tSPKUSD",
+      "restID": "tSPKUSD",
+      "uiID": "SPK/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "STJ",
+      "wsID": "tSTJUSD",
+      "restID": "tSTJUSD",
+      "uiID": "STJ/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "SWM",
+      "wsID": "tSWMUSD",
+      "restID": "tSWMUSD",
+      "uiID": "SWM/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "TKN",
+      "wsID": "tTKNUSD",
+      "restID": "tTKNUSD",
+      "uiID": "TKN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "TNB",
+      "wsID": "tTNBBTC",
+      "restID": "tTNBBTC",
+      "uiID": "TNB/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "TNB",
+      "wsID": "tTNBETH",
+      "restID": "tTNBETH",
+      "uiID": "TNB/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "TNB",
+      "wsID": "tTNBUSD",
+      "restID": "tTNBUSD",
+      "uiID": "TNB/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "TRI",
+      "wsID": "tTRIUSD",
+      "restID": "tTRIUSD",
+      "uiID": "TRI/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "TRX",
+      "wsID": "tTRXBTC",
+      "restID": "tTRXBTC",
+      "uiID": "TRX/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "TRX",
+      "wsID": "tTRXETH",
+      "restID": "tTRXETH",
+      "uiID": "TRX/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "TRX",
+      "wsID": "tTRXEUR",
+      "restID": "tTRXEUR",
+      "uiID": "TRX/EUR",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "TRX",
+      "wsID": "tTRXGBP",
+      "restID": "tTRXGBP",
+      "uiID": "TRX/GBP",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "JPY",
+      "base": "TRX",
+      "wsID": "tTRXJPY",
+      "restID": "tTRXJPY",
+      "uiID": "TRX/JPY",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "TRX",
+      "wsID": "tTRXUSD",
+      "restID": "tTRXUSD",
+      "uiID": "TRX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "TSD",
+      "wsID": "tTSDUSD",
+      "restID": "tTSDUSD",
+      "uiID": "TSD/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "TSD",
+      "wsID": "tTSDUST",
+      "restID": "tTSDUST",
+      "uiID": "TSD/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UDC",
+      "wsID": "tUDCUSD",
+      "restID": "tUDCUSD",
+      "uiID": "UDC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "UDC",
+      "wsID": "tUDCUST",
+      "restID": "tUDCUST",
+      "uiID": "UDC/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UFR",
+      "wsID": "tUFRUSD",
+      "restID": "tUFRUSD",
+      "uiID": "UFR/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "UOS",
+      "wsID": "tUOSBTC",
+      "restID": "tUOSBTC",
+      "uiID": "UOS/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UOS",
+      "wsID": "tUOSUSD",
+      "restID": "tUOSUSD",
+      "uiID": "UOS/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "USK",
+      "wsID": "tUSKBTC",
+      "restID": "tUSKBTC",
+      "uiID": "USK/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EOS",
+      "base": "USK",
+      "wsID": "tUSKEOS",
+      "restID": "tUSKEOS",
+      "uiID": "USK/EOS",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "USK",
+      "wsID": "tUSKETH",
+      "restID": "tUSKETH",
+      "uiID": "USK/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "USK",
+      "wsID": "tUSKUSD",
+      "restID": "tUSKUSD",
+      "uiID": "USK/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "USK",
+      "wsID": "tUSKUST",
+      "restID": "tUSKUST",
+      "uiID": "USK/UST",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "CNHT",
+      "base": "UST",
+      "wsID": "tUST:CNHT",
+      "restID": "tUST:CNHT",
+      "uiID": "UST/CNHT",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UST",
+      "wsID": "tUSTUSD",
+      "restID": "tUSTUSD",
+      "uiID": "UST/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UTK",
+      "wsID": "tUTKUSD",
+      "restID": "tUTKUSD",
+      "uiID": "UTK/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "UTN",
+      "wsID": "tUTNUSD",
+      "restID": "tUTNUSD",
+      "uiID": "UTN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "VEE",
+      "wsID": "tVEEUSD",
+      "restID": "tVEEUSD",
+      "uiID": "VEE/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "VET",
+      "wsID": "tVETBTC",
+      "restID": "tVETBTC",
+      "uiID": "VET/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "VET",
+      "wsID": "tVETUSD",
+      "restID": "tVETUSD",
+      "uiID": "VET/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "VLD",
+      "wsID": "tVLDUSD",
+      "restID": "tVLDUSD",
+      "uiID": "VLD/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "VSY",
+      "wsID": "tVSYBTC",
+      "restID": "tVSYBTC",
+      "uiID": "VSY/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "VSY",
+      "wsID": "tVSYUSD",
+      "restID": "tVSYUSD",
+      "uiID": "VSY/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "WAX",
+      "wsID": "tWAXBTC",
+      "restID": "tWAXBTC",
+      "uiID": "WAX/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "WAX",
+      "wsID": "tWAXUSD",
+      "restID": "tWAXUSD",
+      "uiID": "WAX/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "WBT",
+      "wsID": "tWBTETH",
+      "restID": "tWBTETH",
+      "uiID": "WBT/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "WBT",
+      "wsID": "tWBTUSD",
+      "restID": "tWBTUSD",
+      "uiID": "WBT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "WLO",
+      "wsID": "tWLOUSD",
+      "restID": "tWLOUSD",
+      "uiID": "WLO/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "WPR",
+      "wsID": "tWPRUSD",
+      "restID": "tWPRUSD",
+      "uiID": "WPR/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "WTC",
+      "wsID": "tWTCUSD",
+      "restID": "tWTCUSD",
+      "uiID": "WTC/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XAUT",
+      "wsID": "tXAUT:BTC",
+      "restID": "tXAUT:BTC",
+      "uiID": "XAUT/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XAUT",
+      "wsID": "tXAUT:USD",
+      "restID": "tXAUT:USD",
+      "uiID": "XAUT/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "UST",
+      "base": "XAUT",
+      "wsID": "tXAUT:UST",
+      "restID": "tXAUT:UST",
+      "uiID": "XAUT/UST",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "XCH",
+      "wsID": "tXCHETH",
+      "restID": "tXCHETH",
+      "uiID": "XCH/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XCH",
+      "wsID": "tXCHUSD",
+      "restID": "tXCHUSD",
+      "uiID": "XCH/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XLM",
+      "wsID": "tXLMBTC",
+      "restID": "tXLMBTC",
+      "uiID": "XLM/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "XLM",
+      "wsID": "tXLMETH",
+      "restID": "tXLMETH",
+      "uiID": "XLM/ETH",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "EUR",
+      "base": "XLM",
+      "wsID": "tXLMEUR",
+      "restID": "tXLMEUR",
+      "uiID": "XLM/EUR",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "GBP",
+      "base": "XLM",
+      "wsID": "tXLMGBP",
+      "restID": "tXLMGBP",
+      "uiID": "XLM/GBP",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XLM",
+      "wsID": "tXLMUSD",
+      "restID": "tXLMUSD",
+      "uiID": "XLM/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XMR",
+      "wsID": "tXMRBTC",
+      "restID": "tXMRBTC",
+      "uiID": "XMR/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XMR",
+      "wsID": "tXMRUSD",
+      "restID": "tXMRUSD",
+      "uiID": "XMR/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XRA",
+      "wsID": "tXRAUSD",
+      "restID": "tXRAUSD",
+      "uiID": "XRA/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XRP",
+      "wsID": "tXRPBTC",
+      "restID": "tXRPBTC",
+      "uiID": "XRP/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XRP",
+      "wsID": "tXRPUSD",
+      "restID": "tXRPUSD",
+      "uiID": "XRP/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XTZ",
+      "wsID": "tXTZBTC",
+      "restID": "tXTZBTC",
+      "uiID": "XTZ/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XTZ",
+      "wsID": "tXTZUSD",
+      "restID": "tXTZUSD",
+      "uiID": "XTZ/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "XVG",
+      "wsID": "tXVGBTC",
+      "restID": "tXVGBTC",
+      "uiID": "XVG/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "XVG",
+      "wsID": "tXVGUSD",
+      "restID": "tXVGUSD",
+      "uiID": "XVG/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "YGG",
+      "wsID": "tYGGUSD",
+      "restID": "tYGGUSD",
+      "uiID": "YGG/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "YYW",
+      "wsID": "tYYWUSD",
+      "restID": "tYYWUSD",
+      "uiID": "YYW/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ZBT",
+      "wsID": "tZBTUSD",
+      "restID": "tZBTUSD",
+      "uiID": "ZBT/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ZCN",
+      "wsID": "tZCNUSD",
+      "restID": "tZCNUSD",
+      "uiID": "ZCN/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ZEC",
+      "wsID": "tZECBTC",
+      "restID": "tZECBTC",
+      "uiID": "ZEC/BTC",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ZEC",
+      "wsID": "tZECUSD",
+      "restID": "tZECUSD",
+      "uiID": "ZEC/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ZIL",
+      "wsID": "tZILUSD",
+      "restID": "tZILUSD",
+      "uiID": "ZIL/USD",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "BTC",
+      "base": "ZRX",
+      "wsID": "tZRXBTC",
+      "restID": "tZRXBTC",
+      "uiID": "ZRX/BTC",
+      "contexts": [
+        "e"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "ETH",
+      "base": "ZRX",
+      "wsID": "tZRXETH",
+      "restID": "tZRXETH",
+      "uiID": "ZRX/ETH",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USD",
+      "base": "ZRX",
+      "wsID": "tZRXUSD",
+      "restID": "tZRXUSD",
+      "uiID": "ZRX/USD",
+      "contexts": [
+        "e",
+        "m"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USTF0",
+      "base": "BTCDOMF0",
+      "wsID": "tBTCDOMF0:USTF0",
+      "restID": "tBTCDOMF0:USTF0",
+      "uiID": "BTCDOMF0/USTF0",
+      "contexts": [
+        "f"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USTF0",
+      "base": "BTCF0",
+      "wsID": "tBTCF0:USTF0",
+      "restID": "tBTCF0:USTF0",
+      "uiID": "BTCF0/USTF0",
+      "contexts": [
+        "f"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USTF0",
+      "base": "ETHF0",
+      "wsID": "tETHF0:USTF0",
+      "restID": "tETHF0:USTF0",
+      "uiID": "ETHF0/USTF0",
+      "contexts": [
+        "f"
+      ]
+    },
+    {
+      "exchange": "bitfinex",
+      "quote": "USTF0",
+      "base": "XAUTF0",
+      "wsID": "tXAUTF0:USTF0",
+      "restID": "tXAUTF0:USTF0",
+      "uiID": "XAUTF0/USTF0",
+      "contexts": [
+        "f"
+      ]
+    }
+  ]
+}

@@ -45,6 +45,8 @@ module.exports = (done, exID, channels, asserters) => {
       channel
     }).then((chanID) => {
       channelIDs[i] = chanID
+    }).catch((e) => {
+      console.log(e.stack)
     })
   })
 }
